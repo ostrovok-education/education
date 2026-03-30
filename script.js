@@ -20,7 +20,7 @@ const year = document.querySelector('#current-year');
 const programSummaryText = document.querySelector('#program-summary-text');
 const TRIAL_FORM_STORAGE_KEY = 'ostrovok-trial-form-v1';
 const DEFAULT_FORM_STATUS_TEXT =
-  'После отправки формы откроется Telegram с готовым текстом. Если Telegram не работает, после отправки мы получим заявку и свяжемся с вами сами.';
+  'После отправки формы откроется Telegram с готовым текстом. Если Telegram не работает, после отправки мы получим заявку и свяжемся с Вами сами.';
 const GOOGLE_FORM_PREFILL_URL =
   'https://docs.google.com/forms/d/e/1FAIpQLSewtfM2uvrWYd-rxx-J2nKlHTttN5DC9uMjbv17KMYbEVWm-Q/viewform?usp=pp_url&entry.484089332=%D0%BA%D0%B8%D1%80%D0%B0&entry.870336451=%D0%BA%D0%B8%D1%80%D0%B0&entry.440836252=%D0%BD%D0%BE%D0%BC%D0%B5%D1%80&entry.1007580749=%D0%B2%D0%BE%D0%B7%D1%80%D0%B0%D1%81%D1%82&entry.823266679=%D0%BA%D0%BB%D0%B0%D1%81%D1%81&entry.390683232=%D0%BF%D1%80&entry.1766977890=%D0%B0&entry.623789516=%D0%B0';
 const GOOGLE_FORM_PAYLOAD_ORDER = [
