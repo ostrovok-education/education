@@ -540,66 +540,6 @@ h3 {
   background: #fff;
 }
 
-.posters {
-  padding-top: 2rem;
-}
-
-.poster-flow {
-  margin-top: 1.4rem;
-  display: grid;
-  gap: 1.15rem;
-}
-
-.poster-stage {
-  background: linear-gradient(175deg, #ffffff 0%, #faf7ff 100%);
-  border: 1px solid rgb(123 106 174 / 16%);
-  border-radius: 22px;
-  padding: 1rem;
-  box-shadow: var(--shadow-soft);
-}
-
-.stage-head {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 0.7rem;
-  margin-bottom: 0.85rem;
-}
-
-.stage-head h3 {
-  font-size: 1rem;
-}
-
-.stage-badge {
-  margin: 0;
-  font-weight: 800;
-  color: #31235f;
-  background: var(--lime);
-  border-radius: 999px;
-  padding: 0.3rem 0.65rem;
-  font-size: 0.8rem;
-}
-
-.poster-pair {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.9rem;
-  align-items: start;
-}
-
-.poster {
-  width: 100%;
-  border-radius: 18px;
-  box-shadow: var(--shadow-soft);
-  border: 1px solid rgb(123 106 174 / 13%);
-  transition: transform 0.35s ease, box-shadow 0.35s ease;
-}
-
-.poster:hover {
-  transform: translateY(-5px) scale(1.01);
-  box-shadow: var(--shadow-strong);
-}
-
 .trial-widget {
   padding-top: 1.6rem;
 }
@@ -1056,8 +996,7 @@ select:focus {
   .program-grid,
   .reviews-grid,
   .reviews-board-grid,
-  .trial-route-grid,
-  .poster-pair {
+  .trial-route-grid {
     grid-template-columns: 1fr;
   }
 
