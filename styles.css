@@ -569,12 +569,18 @@ h3 {
 
 .trial-route-arrows {
   margin-top: 0.65rem;
-  display: flex;
+  display: none;
   justify-content: center;
   gap: 4rem;
   font-size: 1.6rem;
   color: #6d5aa7;
   line-height: 1;
+}
+
+@media (min-width: 1025px) {
+  .trial-route-arrows {
+    display: flex;
+  }
 }
 
 .trial-route-grid {
@@ -1006,11 +1012,6 @@ select:focus {
 
   .leader-card {
     padding: 0;
-  }
-
-  .trial-route-arrows {
-    gap: 2.2rem;
-    font-size: 1.35rem;
   }
 
   .trial-card,
