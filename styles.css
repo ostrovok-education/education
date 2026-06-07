@@ -452,6 +452,80 @@ h3 {
   color: rgb(248 244 255 / 94%);
 }
 
+.summer-school {
+  padding-top: 1.5rem;
+}
+
+.summer-school-shell {
+  overflow: visible;
+}
+
+.summer-school-head {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: end;
+  gap: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.summer-school-copy {
+  max-width: 760px;
+}
+
+.summer-school-copy .eyebrow {
+  color: #2f2552;
+  background: rgb(207 219 47 / 92%);
+}
+
+.summer-school-copy h2 {
+  color: #352867;
+}
+
+.summer-school-copy p:not(.eyebrow) {
+  margin: 0.65rem 0 0;
+  color: rgb(47 37 82 / 90%);
+  font-weight: 700;
+  line-height: 1.55;
+}
+
+.summer-school-btn {
+  white-space: nowrap;
+}
+
+.summer-posters-grid {
+  margin-top: 1.4rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: stretch;
+  gap: 1rem;
+}
+
+.summer-poster-card {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.summer-poster-link {
+  display: block;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 16px 34px rgb(81 62 131 / 20%);
+  transition: transform 0.28s ease, box-shadow 0.28s ease;
+}
+
+.summer-poster-link:hover,
+.summer-poster-link:focus-visible {
+  transform: translateY(-4px);
+  box-shadow: 0 22px 44px rgb(81 62 131 / 28%);
+}
+
+.summer-poster-img {
+  width: 100%;
+  height: auto;
+}
+
 .reviews {
   padding-top: 1.5rem;
 }
@@ -927,6 +1001,14 @@ select:focus {
     grid-template-columns: 1fr;
   }
 
+  .summer-school-head {
+    grid-template-columns: 1fr;
+  }
+
+  .summer-school-btn {
+    justify-self: start;
+  }
+
   .leader-grid {
     grid-template-columns: 1fr;
   }
@@ -1000,6 +1082,7 @@ select:focus {
   }
 
   .program-grid,
+  .summer-posters-grid,
   .reviews-grid,
   .reviews-board-grid,
   .trial-route-grid {
